@@ -1,0 +1,566 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Obadah Saleh | MEP Engineer & Electrical Engineer – Dubai, UAE</title>
+  <meta name="description" content="Portfolio of Obadah Saleh – Results-driven MEP Engineer, MEP Coordinator, and Electrical Engineer in Dubai, UAE. Specializing in MEP coordination, electrical systems, and industrial automation." />
+  <meta name="keywords" content="MEP Engineer, Electrical Engineer, MEP Coordinator, Dubai, UAE, Industrial Automation, PLC, SCADA, AutoCAD, Revit MEP" />
+  <meta name="author" content="Obadah Saleh" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Obadah Saleh | MEP & Electrical Engineer" />
+  <meta property="og:description" content="Results-driven MEP & Electrical Engineer with hands-on experience in MEP coordination, electrical systems, and industrial automation in Dubai, UAE." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://obadah.qzz.io" />
+  <meta property="og:image" content="assets/images/hero-bg.png" />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+
+  <!-- Google Fonts (preconnect) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+
+  <!-- Main Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ============ LOADING SCREEN ============ -->
+  <div class="loading-screen" id="loadingScreen">
+    <div class="loader"></div>
+    <p>LOADING PORTFOLIO</p>
+  </div>
+
+  <!-- ============ PARTICLE BACKGROUND ============ -->
+  <canvas id="particles-canvas"></canvas>
+
+  <!-- ============ NAVIGATION ============ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <a href="#" class="nav-logo">OS<span>.dev</span></a>
+      <div class="nav-links" id="navLinks">
+        <a href="#hero" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Expertise</a>
+        <a href="#experience">Experience</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="nav-cta">Hire Me</a>
+      </div>
+      <div class="nav-toggle" id="navToggle">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ============ HERO SECTION ============ -->
+  <section class="hero section" id="hero">
+    <div class="hero-bg">
+      <img src="assets/images/hero-bg.png" alt="Engineering Blueprint Background" />
+    </div>
+    <div class="hero-grid-overlay"></div>
+    <div class="container">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="pulse-dot"></span>
+          Available for Opportunities
+        </div>
+        <h1 class="hero-name">Obadah<br />Saleh</h1>
+        <p class="hero-roles">
+          <span class="role-highlight" id="typedRole">MEP Engineer</span> ·
+          Electrical Engineer · Automation
+        </p>
+        <p class="hero-description">
+          Results-driven MEP & Electrical Engineer with hands-on experience
+          in MEP coordination, electrical systems, site execution, and
+          multidisciplinary project coordination for residential &
+          commercial developments in the UAE.
+        </p>
+        <div class="hero-stats">
+          <div class="stat-item">
+            <div class="stat-number" data-count="3">0+</div>
+            <div class="stat-label">Years Exp.</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="10">0+</div>
+            <div class="stat-label">Projects</div>
+          </div>
+          <div class="stat-item">
+            <div class="stat-number" data-count="12">0+</div>
+            <div class="stat-label">Skills</div>
+          </div>
+        </div>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary" id="hireMeBtn">
+            <i class="fa-solid fa-paper-plane"></i> Get In Touch
+          </a>
+          <a href="#experience" class="btn btn-secondary">
+            <i class="fa-solid fa-briefcase"></i> View Experience
+          </a>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-wrapper">
+          <div class="hero-image-ring"></div>
+          <div class="hero-image">
+            <img src="assets/images/profile-avatar.png" alt="Obadah Saleh – MEP Engineer Profile Photo" />
+          </div>
+          <div class="hero-floating-badge">
+            <i class="fa-solid fa-bolt"></i> MEP Coordination
+          </div>
+          <div class="hero-floating-badge">
+            <i class="fa-solid fa-building"></i> Dubai, UAE
+          </div>
+          <div class="hero-floating-badge">
+            <i class="fa-solid fa-microchip"></i> Automation
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT SECTION ============ -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fa-solid fa-user"></i> About Me</span>
+        <h2 class="section-title">Engineering Excellence, <span class="gradient-text">Delivered</span></h2>
+        <p class="section-subtitle">Passionate about building systems that power modern infrastructure</p>
+      </div>
+      <div class="about-grid">
+        <div class="about-image animate-on-scroll">
+          <img src="assets/images/about-section.png" alt="MEP Engineering Workspace" />
+          <div class="about-image-overlay"></div>
+          <div class="about-image-badge">
+            <i class="fa-solid fa-location-dot"></i>
+            <div>
+              <div class="badge-title">Based In</div>
+              <div class="badge-value">Dubai, UAE</div>
+            </div>
+          </div>
+        </div>
+        <div class="about-content animate-on-scroll">
+          <h3>Building the Future, One System at a Time</h3>
+          <p>
+            I am a results-driven MEP & Electrical Engineer with hands-on experience in
+            MEP coordination, electrical systems, site execution, technical documentation,
+            and multidisciplinary project coordination for residential and commercial
+            developments in the UAE.
+          </p>
+          <p>
+            Experienced in coordinating with consultants, subcontractors, architects, and
+            site teams to ensure successful project execution in compliance with UAE
+            authority standards and project specifications. My strong technical understanding
+            of MEP systems combined with exposure to industrial automation and control
+            systems enables efficient problem-solving and systems-level coordination.
+          </p>
+          <div class="about-highlights">
+            <div class="highlight-item">
+              <i class="fa-solid fa-drafting-compass"></i>
+              <span>MEP Coordination</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-bolt"></i>
+              <span>Electrical Systems</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-fire-extinguisher"></i>
+              <span>Fire Protection</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-gears"></i>
+              <span>Automation & PLC</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-file-lines"></i>
+              <span>Shop Drawing Review</span>
+            </div>
+            <div class="highlight-item">
+              <i class="fa-solid fa-clipboard-check"></i>
+              <span>Testing & Commissioning</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES / EXPERTISE ============ -->
+  <section class="section" id="services">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fa-solid fa-star"></i> Core Expertise</span>
+        <h2 class="section-title">What I <span class="gradient-text">Bring to the Table</span></h2>
+        <p class="section-subtitle">End-to-end MEP engineering expertise for modern construction projects</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon"><i class="fa-solid fa-building"></i></div>
+          <h3>MEP Coordination & Site Execution</h3>
+          <p>Comprehensive coordination of mechanical, electrical, and plumbing systems across residential and commercial projects, ensuring clash-free installation and on-time delivery.</p>
+        </div>
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon"><i class="fa-solid fa-bolt"></i></div>
+          <h3>Electrical Systems Design</h3>
+          <p>LV distribution systems, lighting layouts, SLDs, electrical schematics, cable sizing, and panel scheduling with compliance to UAE authority standards.</p>
+        </div>
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon"><i class="fa-solid fa-fan"></i></div>
+          <h3>HVAC & Plumbing Coordination</h3>
+          <p>Cross-disciplinary coordination of HVAC ductwork, plumbing systems, and firefighting networks to eliminate clashes and optimize space utilization.</p>
+        </div>
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon"><i class="fa-solid fa-network-wired"></i></div>
+          <h3>ELV Systems Coordination</h3>
+          <p>Extra-low voltage systems including CCTV, access control, fire alarm, BMS, and structured cabling coordination within the building infrastructure.</p>
+        </div>
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon"><i class="fa-solid fa-microchip"></i></div>
+          <h3>Industrial Automation</h3>
+          <p>PLC programming (Siemens TIA Portal, Allen-Bradley), HMI/SCADA system development (WinCC, FactoryTalk), and control panel testing.</p>
+        </div>
+        <div class="service-card animate-on-scroll">
+          <div class="service-icon"><i class="fa-solid fa-file-contract"></i></div>
+          <h3>Technical Documentation</h3>
+          <p>Shop drawing review, RFI preparation, as-built documentation, BOQ & material submittals, and technical reports for project compliance.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE / TIMELINE ============ -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fa-solid fa-briefcase"></i> Experience</span>
+        <h2 class="section-title">Professional <span class="gradient-text">Journey</span></h2>
+        <p class="section-subtitle">Building expertise across MEP engineering and industrial automation</p>
+      </div>
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">MEP / Electrical Engineer</div>
+                <div class="timeline-company">Ashiyana Contracting L.L.C</div>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Jul 2024 – Present</span>
+            </div>
+            <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Dubai, UAE</div>
+            <ul class="timeline-duties">
+              <li>Coordinated MEP and electrical activities for residential and commercial construction projects</li>
+              <li>Reviewed electrical layouts, MEP drawings, and technical specifications</li>
+              <li>Coordinated with HVAC, plumbing, fire protection, and structural teams to resolve clashes</li>
+              <li>Assisted in testing, troubleshooting, and commissioning support for MEP systems</li>
+              <li>Prepared RFIs, reports, as-built drawings, and technical documentation</li>
+              <li>Coordinated subcontractors and site teams to maintain project quality and timelines</li>
+            </ul>
+          </div>
+        </div>
+        <!-- Experience 2 -->
+        <div class="timeline-item animate-on-scroll">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-header">
+              <div>
+                <div class="timeline-role">Industrial Automation Intern</div>
+                <div class="timeline-company">Sofcon India Pvt. Ltd.</div>
+              </div>
+              <span class="timeline-date"><i class="fa-regular fa-calendar"></i> Sep 2023 – Mar 2024</span>
+            </div>
+            <div class="timeline-location"><i class="fa-solid fa-location-dot"></i> Noida, India</div>
+            <ul class="timeline-duties">
+              <li>Assisted in PLC programming using Siemens TIA Portal and Allen-Bradley Studio 5000</li>
+              <li>Worked on HMI and SCADA systems including WinCC and FactoryTalk</li>
+              <li>Supported PCC/MCC panel testing and control system troubleshooting</li>
+              <li>Prepared technical schematics, wiring schedules, and reports</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SKILLS SECTION ============ -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fa-solid fa-code"></i> Skills</span>
+        <h2 class="section-title">Technical <span class="gradient-text">Arsenal</span></h2>
+        <p class="section-subtitle">Tools and technologies I work with daily</p>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-drafting-compass"></i> AutoCAD</span>
+            <span class="skill-level">95%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="95"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-cube"></i> Revit MEP</span>
+            <span class="skill-level">85%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="85"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-cubes"></i> Navisworks</span>
+            <span class="skill-level">80%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="80"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-bolt"></i> AutoCAD Electrical</span>
+            <span class="skill-level">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-microchip"></i> Siemens TIA Portal</span>
+            <span class="skill-level">75%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="75"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-robot"></i> Allen-Bradley Studio 5000</span>
+            <span class="skill-level">70%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="70"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-desktop"></i> WinCC & FactoryTalk</span>
+            <span class="skill-level">72%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="72"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-file-excel"></i> MS Office Suite</span>
+            <span class="skill-level">92%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="92"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-diagram-project"></i> Electrical Schematics & SLDs</span>
+            <span class="skill-level">90%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="90"></div></div>
+        </div>
+        <div class="skill-card animate-on-scroll">
+          <div class="skill-header">
+            <span class="skill-name"><i class="fa-solid fa-list-check"></i> MEP Coordination & Docs</span>
+            <span class="skill-level">88%</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill" data-width="88"></div></div>
+        </div>
+      </div>
+
+      <!-- Languages -->
+      <div class="section-header animate-on-scroll" style="margin-top: 60px;">
+        <span class="section-label"><i class="fa-solid fa-language"></i> Languages</span>
+      </div>
+      <div class="languages-grid animate-on-scroll">
+        <div class="lang-badge">
+          <i class="fa-solid fa-globe"></i>
+          <span>English</span>
+        </div>
+        <div class="lang-badge">
+          <i class="fa-solid fa-globe"></i>
+          <span>Hindi</span>
+        </div>
+        <div class="lang-badge">
+          <i class="fa-solid fa-globe"></i>
+          <span>Urdu</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION & CERTIFICATIONS ============ -->
+  <section class="experience section" id="education">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fa-solid fa-graduation-cap"></i> Education & Certifications</span>
+        <h2 class="section-title">Academic <span class="gradient-text">Foundation</span></h2>
+        <p class="section-subtitle">Continuous learning drives engineering excellence</p>
+      </div>
+      <div class="edu-cert-grid">
+        <!-- Education -->
+        <div class="edu-card animate-on-scroll">
+          <div class="edu-card-icon"><i class="fa-solid fa-graduation-cap"></i></div>
+          <h3>Education</h3>
+          <div class="edu-item">
+            <h4>B.Tech – Electrical & Electronics Engineering</h4>
+            <p>I.E.S College of Technology, Bhopal, India</p>
+            <span class="edu-year">Graduated: 2023</span>
+          </div>
+        </div>
+        <!-- Certifications -->
+        <div class="cert-card animate-on-scroll">
+          <div class="cert-card-icon"><i class="fa-solid fa-certificate"></i></div>
+          <h3>Certifications</h3>
+          <div class="cert-item">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <h4>Building Regulations & Design Guidelines (MEP)</h4>
+              <p>TRAKHEES, Dubai</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <h4>Industrial Automation Training (PLC, HMI, SCADA, Drives)</h4>
+              <p>Sofcon India Pvt. Ltd.</p>
+            </div>
+          </div>
+          <div class="cert-item">
+            <i class="fa-solid fa-award"></i>
+            <div>
+              <h4>Certificate in Entrepreneurship</h4>
+              <p>Indian School of Business & CSC Academy</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- ============ CONTACT SECTION ============ -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header animate-on-scroll">
+        <span class="section-label"><i class="fa-solid fa-envelope"></i> Contact</span>
+        <h2 class="section-title">Let's <span class="gradient-text">Work Together</span></h2>
+        <p class="section-subtitle">Have a project or opportunity? I'd love to hear from you</p>
+      </div>
+      <div class="contact-grid">
+        <!-- Contact Info -->
+        <div class="contact-info animate-on-scroll">
+          <h3>Get in Touch</h3>
+          <p>
+            I'm actively looking for new opportunities in MEP Engineering,
+            MEP Coordination, Electrical Engineering, and Industrial Automation.
+            Feel free to reach out!
+          </p>
+          <div class="contact-details">
+            <a href="mailto:salehobadah@outlook.com" class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-envelope"></i></div>
+              <div class="detail-text">
+                <div class="detail-label">Email</div>
+                <div class="detail-value">salehobadah@outlook.com</div>
+              </div>
+            </a>
+            <a href="tel:+971564738143" class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-phone"></i></div>
+              <div class="detail-text">
+                <div class="detail-label">Phone</div>
+                <div class="detail-value">+971 564 738 143</div>
+              </div>
+            </a>
+            <div class="contact-detail-item">
+              <div class="detail-icon"><i class="fa-solid fa-location-dot"></i></div>
+              <div class="detail-text">
+                <div class="detail-label">Location</div>
+                <div class="detail-value">Dubai, UAE</div>
+              </div>
+            </div>
+          </div>
+          <div class="social-links">
+            <a href="https://linkedin.com/in/obadahs" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </a>
+            <a href="mailto:salehobadah@outlook.com" class="social-link" aria-label="Email">
+              <i class="fa-solid fa-envelope"></i>
+            </a>
+            <a href="https://obadah.qzz.io" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="Portfolio">
+              <i class="fa-solid fa-globe"></i>
+            </a>
+          </div>
+        </div>
+        <!-- Contact Form -->
+        <div class="contact-form-wrapper animate-on-scroll">
+          <h3><i class="fa-solid fa-paper-plane" style="color:var(--clr-accent); margin-right:8px;"></i> Send Me a Message</h3>
+          <form id="contactForm" action="https://formspree.io/f/mwvjaevw" method="POST">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="e.g. John Smith" required />
+              </div>
+              <div class="form-group">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="e.g. john@company.com" required />
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="company">Company / Organization</label>
+                <input type="text" id="company" name="company" placeholder="e.g. ABC Construction" />
+              </div>
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <select id="subject" name="subject" required>
+                  <option value="" disabled selected>Select a topic</option>
+                  <option value="Job Opportunity">Job Opportunity</option>
+                  <option value="Project Collaboration">Project Collaboration</option>
+                  <option value="Freelance Work">Freelance Work</option>
+                  <option value="General Enquiry">General Enquiry</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about the opportunity or your project..." required></textarea>
+            </div>
+            <button type="submit" class="btn-submit" id="submitBtn">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+          <div class="form-success" id="formSuccess">
+            <i class="fa-solid fa-circle-check"></i>
+            <h4>Message Sent Successfully!</h4>
+            <p>Thank you for reaching out. I'll get back to you shortly.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-left">
+        <div class="footer-logo">Obadah Saleh</div>
+        <p>&copy; 2024–2026 Obadah Saleh. All rights reserved.</p>
+      </div>
+      <div class="footer-right">
+        <a href="https://linkedin.com/in/obadahs" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+        <a href="mailto:salehobadah@outlook.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+        <a href="tel:+971564738143" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============ SCROLL TO TOP ============ -->
+  <button class="scroll-top" id="scrollTop" aria-label="Scroll to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- ============ JAVASCRIPT ============ -->
+  <script src="script.js"></script>
+</body>
+</html>
